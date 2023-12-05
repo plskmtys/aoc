@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/matyas/sata/code/aoc/build",
+  "command": "/usr/bin/gcc  -I/home/matyas/sata/code/aoc/. -g -std=gnu99 -o CMakeFiles/aoc.dir/day2-b.c.o -c /home/matyas/sata/code/aoc/day2-b.c",
+  "file": "/home/matyas/sata/code/aoc/day2-b.c",
+  "output": "CMakeFiles/aoc.dir/day2-b.c.o"
+}
+]

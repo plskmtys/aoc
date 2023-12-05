@@ -1,0 +1,1 @@
+/usr/bin/gcc -g "CMakeFiles/aoc.dir/day2-b.c.o" -o /home/matyas/sata/code/aoc/aoc 
