@@ -1,1 +1,1 @@
-/usr/bin/gcc -g "CMakeFiles/aoc.dir/day2-b.c.o" -o /home/matyas/sata/code/aoc/aoc 
+/usr/bin/g++ -g -rdynamic CMakeFiles/aoc.dir/day4.cpp.o -o /home/matyas/sata/code/aoc/aoc 

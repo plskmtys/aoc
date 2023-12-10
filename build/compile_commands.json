@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/matyas/sata/code/aoc/build",
-  "command": "/usr/bin/gcc  -I/home/matyas/sata/code/aoc/. -g -std=gnu99 -o CMakeFiles/aoc.dir/day2-b.c.o -c /home/matyas/sata/code/aoc/day2-b.c",
-  "file": "/home/matyas/sata/code/aoc/day2-b.c",
-  "output": "CMakeFiles/aoc.dir/day2-b.c.o"
+  "command": "/usr/bin/g++  -I/home/matyas/sata/code/aoc/. -g -o CMakeFiles/aoc.dir/day4.cpp.o -c /home/matyas/sata/code/aoc/day4.cpp",
+  "file": "/home/matyas/sata/code/aoc/day4.cpp",
+  "output": "CMakeFiles/aoc.dir/day4.cpp.o"
 }
 ]
