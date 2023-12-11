@@ -1,6 +1,5 @@
 CMakeFiles/aoc.dir/day4.cpp.o: /home/matyas/sata/code/aoc/day4.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/stdlib.h \
- /usr/include/c++/13/cstdlib \
+ /usr/include/stdc-predef.h /usr/include/c++/13/cstdlib \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/os_defines.h \
@@ -126,4 +125,9 @@ CMakeFiles/aoc.dir/day4.cpp.o: /home/matyas/sata/code/aoc/day4.cpp \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/string.h \
+ /usr/include/strings.h
