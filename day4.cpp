@@ -5,6 +5,14 @@
 #include <stdio.h>
 #include <ctype.h>
 
+typedef struct {
+    int num;
+    int winners[10];
+    int tips[25];
+    int matches;
+    int amount;
+} Card;
+
 int matches(const int arr1[10], const int arr2[25]){
     int m = 0;
     for(size_t i = 0; i < 10; i++){
@@ -13,6 +21,16 @@ int matches(const int arr1[10], const int arr2[25]){
         }
     }
     return m;
+}
+
+void matches2 (Card *card){
+    int m = 0;
+    for(size_t i = 0; i < 10; i++){
+        for (size_t j = 0; j < 25; j++){
+            if(card->winners[i] == card->tips[j]) m += 1;
+        }
+    }
+    card->matches = m;
 }
 
 int twotothe(int exp){

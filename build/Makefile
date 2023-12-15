@@ -523,29 +523,29 @@ aoc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/build
 .PHONY : aoc/fast
 
-day4.o: day4.cpp.o
-.PHONY : day4.o
+day12.o: day12.cpp.o
+.PHONY : day12.o
 
 # target to build an object file
-day4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/day4.cpp.o
-.PHONY : day4.cpp.o
+day12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/day12.cpp.o
+.PHONY : day12.cpp.o
 
-day4.i: day4.cpp.i
-.PHONY : day4.i
+day12.i: day12.cpp.i
+.PHONY : day12.i
 
 # target to preprocess a source file
-day4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/day4.cpp.i
-.PHONY : day4.cpp.i
+day12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/day12.cpp.i
+.PHONY : day12.cpp.i
 
-day4.s: day4.cpp.s
-.PHONY : day4.s
+day12.s: day12.cpp.s
+.PHONY : day12.s
 
 # target to generate assembly for a file
-day4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/day4.cpp.s
-.PHONY : day4.cpp.s
+day12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/day12.cpp.s
+.PHONY : day12.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... aoc"
-	@echo "... day4.o"
-	@echo "... day4.i"
-	@echo "... day4.s"
+	@echo "... day12.o"
+	@echo "... day12.i"
+	@echo "... day12.s"
 .PHONY : help
 
 

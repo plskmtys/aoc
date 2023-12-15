@@ -69,28 +69,28 @@ include CMakeFiles/aoc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/aoc.dir/flags.make
 
-CMakeFiles/aoc.dir/day4.cpp.o: CMakeFiles/aoc.dir/flags.make
-CMakeFiles/aoc.dir/day4.cpp.o: /home/matyas/sata/code/aoc/day4.cpp
-CMakeFiles/aoc.dir/day4.cpp.o: CMakeFiles/aoc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matyas/sata/code/aoc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aoc.dir/day4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aoc.dir/day4.cpp.o -MF CMakeFiles/aoc.dir/day4.cpp.o.d -o CMakeFiles/aoc.dir/day4.cpp.o -c /home/matyas/sata/code/aoc/day4.cpp
+CMakeFiles/aoc.dir/day12.cpp.o: CMakeFiles/aoc.dir/flags.make
+CMakeFiles/aoc.dir/day12.cpp.o: /home/matyas/sata/code/aoc/day12.cpp
+CMakeFiles/aoc.dir/day12.cpp.o: CMakeFiles/aoc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matyas/sata/code/aoc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aoc.dir/day12.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aoc.dir/day12.cpp.o -MF CMakeFiles/aoc.dir/day12.cpp.o.d -o CMakeFiles/aoc.dir/day12.cpp.o -c /home/matyas/sata/code/aoc/day12.cpp
 
-CMakeFiles/aoc.dir/day4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aoc.dir/day4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matyas/sata/code/aoc/day4.cpp > CMakeFiles/aoc.dir/day4.cpp.i
+CMakeFiles/aoc.dir/day12.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aoc.dir/day12.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matyas/sata/code/aoc/day12.cpp > CMakeFiles/aoc.dir/day12.cpp.i
 
-CMakeFiles/aoc.dir/day4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aoc.dir/day4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matyas/sata/code/aoc/day4.cpp -o CMakeFiles/aoc.dir/day4.cpp.s
+CMakeFiles/aoc.dir/day12.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aoc.dir/day12.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matyas/sata/code/aoc/day12.cpp -o CMakeFiles/aoc.dir/day12.cpp.s
 
 # Object files for target aoc
 aoc_OBJECTS = \
-"CMakeFiles/aoc.dir/day4.cpp.o"
+"CMakeFiles/aoc.dir/day12.cpp.o"
 
 # External object files for target aoc
 aoc_EXTERNAL_OBJECTS =
 
-/home/matyas/sata/code/aoc/aoc: CMakeFiles/aoc.dir/day4.cpp.o
+/home/matyas/sata/code/aoc/aoc: CMakeFiles/aoc.dir/day12.cpp.o
 /home/matyas/sata/code/aoc/aoc: CMakeFiles/aoc.dir/build.make
 /home/matyas/sata/code/aoc/aoc: CMakeFiles/aoc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matyas/sata/code/aoc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/matyas/sata/code/aoc/aoc"
