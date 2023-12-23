@@ -79,7 +79,7 @@ int main(void){
         game++;
     }
 
-    printf("az elso osszeg: %d\n", sum);
+    printf("a masodik osszeg: %d\n", sum);
 
     fclose(fp);
     return 0;

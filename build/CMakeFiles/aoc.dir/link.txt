@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/aoc.dir/day12.cpp.o -o /home/matyas/sata/code/aoc/aoc 
