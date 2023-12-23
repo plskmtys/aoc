@@ -12,7 +12,7 @@ include_directories(.)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
-add_executable(aoc day2-b.c)
+add_executable(aoc day2-2.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

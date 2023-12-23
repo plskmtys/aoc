@@ -15,16 +15,15 @@ typedef struct ball{
     int qty;
 }ball;
 
-ball maxballs[] = {{red, 12}, {green, 13}, {blue, 14}};
 char *colors[] = {"red", "green", "blue"};
-int maxn[] = {12, 13, 14};
 
-bool validgame(char *line){
+int BallsRequired(char *line){
     char colorbuffer[10] = {0};
     size_t colorbufindex = 0;
     char numbuffer[4] = {0};
     size_t numbufindex = 0;
     int qty;
+    ball minballs[] = {{red, 0}, {green, 0}, {blue, 0}};
     while(*line != ':'){
         line++;
     }
@@ -41,8 +40,8 @@ bool validgame(char *line){
         else if(*line == ';' || *line == '\n' || *line == ','){
             for(int i = 0; i < 3; i++){
                 if(strcmp(colorbuffer, colors[i]) == 0){
-                    if(qty > maxn[i]){
-                        return false;
+                    if(qty > minballs[i].qty){
+                        minballs[i].qty = qty;
                     }
                     break;
                 }
@@ -57,7 +56,7 @@ bool validgame(char *line){
         }
         line++;
     }
-    return true;
+    return minballs[0].qty * minballs[1].qty * minballs[2].qty; 
 }
 
 int main(void){
@@ -73,10 +72,7 @@ int main(void){
     int game = 1;
 
     while (fgets(line, 256, fp) != NULL) {
-        if(validgame(line)){
-            sum+=game;
-        }
-        game++;
+        sum += BallsRequired(line);
     }
 
     printf("a masodik osszeg: %d\n", sum);
